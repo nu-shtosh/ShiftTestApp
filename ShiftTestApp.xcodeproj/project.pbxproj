@@ -16,6 +16,8 @@
 		B859E16F29A8DDDB00DF894C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859E16E29A8DDDB00DF894C /* StorageManager.swift */; };
 		B859E17129A8E24500DF894C /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859E17029A8E24500DF894C /* AddNoteViewController.swift */; };
 		B859E17729A9572900DF894C /* ViewsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859E17629A9572900DF894C /* ViewsExtensions.swift */; };
+		B885D9EB29AFAE0500B928B3 /* Add Note.png in Resources */ = {isa = PBXBuildFile; fileRef = B885D9E929AFAE0500B928B3 /* Add Note.png */; };
+		B885D9EC29AFAE0500B928B3 /* Notes.png in Resources */ = {isa = PBXBuildFile; fileRef = B885D9EA29AFAE0500B928B3 /* Notes.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B859E16E29A8DDDB00DF894C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		B859E17029A8E24500DF894C /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 		B859E17629A9572900DF894C /* ViewsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsExtensions.swift; sourceTree = "<group>"; };
+		B885D9E929AFAE0500B928B3 /* Add Note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add Note.png"; sourceTree = "<group>"; };
+		B885D9EA29AFAE0500B928B3 /* Notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notes.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 		B859E14229A8C40B00DF894C = {
 			isa = PBXGroup;
 			children = (
+				B885D9E829AFADD200B928B3 /* Screens */,
 				B859E14D29A8C40B00DF894C /* ShiftTestApp */,
 				B859E14C29A8C40B00DF894C /* Products */,
 			);
@@ -132,6 +137,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		B885D9E829AFADD200B928B3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B885D9E929AFAE0500B928B3 /* Add Note.png */,
+				B885D9EA29AFAE0500B928B3 /* Notes.png */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B885D9EB29AFAE0500B928B3 /* Add Note.png in Resources */,
+				B885D9EC29AFAE0500B928B3 /* Notes.png in Resources */,
 				B859E15B29A8C40C00DF894C /* LaunchScreen.storyboard in Resources */,
 				B859E15829A8C40C00DF894C /* Assets.xcassets in Resources */,
 			);

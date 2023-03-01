@@ -14,3 +14,10 @@
 - Возможность редактирования любой заметки из списка;
 - Удаление заметок;
 - Также сохранять все заметки между сеансами.
+
+<div align="left">
+
+  <img src="https://github.com/nu-shtosh/ShiftTestApp/blob/main/Screens/Notes.png" width="200"/>
+  <img src="https://github.com/nu-shtosh/ShiftTestApp/blob/main/Screens/Add Note.png" width="200"/>
+
+</div>
